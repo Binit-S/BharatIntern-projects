@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+    /* background-color:#252422  ; */
+    color: #fffcf2;
+    
+    
+}
+
+header {
+    position: fixed;
+    top: 2rem;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    /* background-color: #495057; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.lg {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fffcf2;
+    text-decoration: none;
+
+}
+
+.navbar a{
+    font-size: 1rem; 
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #fffcf2;
+    font-weight: 500;
+    /* transition: 0.5s; */
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    padding: 0.25em 0.25em;}
+
+
+.navbar a:hover{
+    color: rgb(168, 230, 238);
+}
+.navbar a:active {
+    box-shadow: 1px 1px 2px #aed5e3;
+
+}
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+    background: url(https://imgur.com/s2k9IOK.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home-content{
+    max-width: 1000px;
+    
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+h3{
+    color: #0096c7;
+    font-size: 2rem;
+    margin:0.2rem 0 2.5rem;
+}
+p{
+    /* margin-left: 2rem; */
+    margin-bottom: 2rem;
+    font-size: larger;
+    width: 30rem;
+    font-weight: 400;
+}
+.button-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 100%;
+    background-color: transparent;
+    text-decoration:none;
+    color: #fffcf2;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 1rem;
+    border: 1px solid #fffcf2;
+}
+
+
+
+.button-box{
+    display: flex;
+    justify-content:flex-start;
+    width: 15rem;
+    height: 3rem;
+    margin-bottom: 0%;
+    margin-top: 10%;
+    
+}
+
+.button-box a:hover{
+    border: 2px solid whitesmoke;
+    font-size:large;
+}
+
+.homecontact{
+    bottom: 20%;
+    position: absolute;
+    margin-left: 10%;
+    width: 15rem;
+}
+
+.homecontact a{
+    position: relative;
+    height: 2rem;
+    width: 3rem ;
+    display: inline-flex;
+    color: #fffcf2;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+.homecontact a:hover{
+    color: #61eaea;
+  text-shadow:
+    /* White glow */
+    0 0 7px #61eaea,
+    0 0 10px #61eaea,
+    0 0 21px #61eaea,
+}
+.home-imghov{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 500px;
+    height: 100%;
+    background:transparent ;
+    transition: 3s;
+}
+
+.home-imghov:hover{
+    background: #252422;
+    opacity: .8;
+}
